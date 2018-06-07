@@ -1,0 +1,18 @@
+joy
+Min: 0
+Max: 0
+surprise
+Min: 0
+Max: 97
+anger
+Min: 0
+Max: 0
+disgust
+Min: 0
+Max: 0
+fear
+Min: 0
+Max: 20
+sadness
+Min: 0
+Max: 0
