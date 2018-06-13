@@ -46,7 +46,7 @@ public class RunAll {
                 Thread.sleep(1000);
                 //writer.println("\n");
                 makeFeatureVector.mainMakeFeatureVector("\n");
-                break;
+                //break;
             }
             else if (listOfFiles[i].isDirectory()) {
                 System.out.println("Directory " + listOfFiles[i].getName());

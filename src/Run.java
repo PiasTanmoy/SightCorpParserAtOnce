@@ -22,6 +22,10 @@ public class Run {
 
         Thread.sleep(1000);
 
+        KairosFile2 kairosFile2 = new KairosFile2();
+        int x = kairosFile2.mainKairosFile2();
+        if(x == 0) return;
+
         Points points = new Points();
         points.mainPoints();
 

@@ -25,6 +25,15 @@ public class SearchMax {
                 }
                 System.out.println("\n");
 
+                if(words.length < 2) {
+                    System.out.print(0);
+                    output.write("0");
+
+                    System.out.println();
+                    output.write("\n");
+                    continue;
+                }
+
                 /**
                  * Calculate MAX and MIN
                  */
@@ -67,13 +76,9 @@ public class SearchMax {
                     System.out.print(7);
                     output.write("7");
                 }
-                if(idx == 8) {
-                    System.out.print(8);
-                    output.write("7");
-                }
-                else {
-                    //System.out.print(0);
-                    //output.write("0");
+                if(idx == 0) {
+                    System.out.print(0);
+                    output.write("0");
                 }
 
                 System.out.println();
