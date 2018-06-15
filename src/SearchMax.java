@@ -43,13 +43,14 @@ public class SearchMax {
                 for(String word : words) {
                     count++;
                     double val = Double.parseDouble(word);
-                    if(val > max) {
+                    if(val > max && count != 1) {
                         max = val;
                         idx = count;
                     }
                 }
 
-                /*
+
+                //sky
                 if(idx == 1) {
                     System.out.print(8);
                     output.write("8");
@@ -78,41 +79,44 @@ public class SearchMax {
                     System.out.print(7);
                     output.write("7");
                 }
-                */
+
 
                 //Microsoft
-                if(idx == 1) {
-                    System.out.print(5);
-                    output.write("5");
-                }
-                if(idx == 2) {
-                    System.out.print(7);
-                    output.write("7");
-                }
-                if(idx == 3) {
-                    System.out.print(1);
-                    output.write("1");
-                }
-                if(idx == 4) {
-                    System.out.print(3);
-                    output.write("3");
-                }
-                if(idx == 5) {
-                    System.out.print(4);
-                    output.write("4");
-                }
-                if(idx == 6) {
-                    System.out.print(6);
-                    output.write("6");
-                }
-                if(idx == 7) {
-                    System.out.print(8);
-                    output.write("8");
-                }
-                if(idx == 8) {
-                    System.out.print(2);
-                    output.write("2");
-                }
+//                if(idx == 1) {
+//                    System.out.print(5);
+//                    output.write("5");
+//                }
+//                if(idx == 2) {
+//                    System.out.print(7);
+//                    output.write("7");
+//                }
+//                if(idx == 3) {
+//                    System.out.print(1);
+//                    output.write("1");
+//                }
+//                if(idx == 4) {
+//                    System.out.print(3);
+//                    output.write("3");
+//                }
+//                if(idx == 5) {
+//                    System.out.print(4);
+//                    output.write("4");
+//                }
+//                if(idx == 6) {
+//                    System.out.print(6);
+//                    output.write("6");
+//                }
+//                if(idx == 7) {
+//                    System.out.print(8);
+//                    output.write("8");
+//                }
+//                if(idx == 8) {
+//                    System.out.print(2);
+//                    output.write("2");
+//                }
+
+
+
                 if(idx == 0) {
                     System.out.print(0);
                     output.write("0");
